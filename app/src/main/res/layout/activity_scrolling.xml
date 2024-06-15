@@ -5,12 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+    android:background="@color/teal_200"
     tools:context=".ScrollingActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/app_bar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/app_bar_height"
+        android:background="#34B9F4"
         android:fitsSystemWindows="true"
         android:theme="@style/Theme.Scrolling.AppBarOverlay">
 
@@ -22,6 +24,7 @@
             android:fitsSystemWindows="true"
             app:contentScrim="?attr/colorPrimary"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            android:background="@drawable/amanecer__2_"
             app:toolbarId="@+id/toolbar">
 
             <androidx.appcompat.widget.Toolbar
