@@ -6,7 +6,7 @@ Se elige la carpeta del proyecto
  
 Una vez iniciado el repositorio se muestra la primera rama :main
  
-En la terminal con <git status> , se muestra los archivos que aún no se han agregado en rojo.
+En la terminal con (git status), se muestra los archivos que aún no se han agregado en rojo.
  
 Después del comando <git add .>  se agregan los archivos y al consultar con un <git status> se muestran en verde listos para el” commit.”
  
