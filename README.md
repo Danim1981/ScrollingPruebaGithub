@@ -8,7 +8,7 @@ Una vez iniciado el repositorio se muestra la primera rama :main
  
 En la terminal con (git status), se muestra los archivos que aún no se han agregado en rojo.
  
-Después del comando <git add .>  se agregan los archivos y al consultar con un <git status> se muestran en verde listos para el” commit.”
+Después del comando (git add .)  se agregan los archivos y al consultar con un (git status) se muestran en verde listos para el” commit.”
  
 Se realiza el primer commit
  
@@ -36,18 +36,18 @@ En la pantalla de nuevo repositorio, se le agrega el nombre ,  una descripción,
 Una vez Creado el Repositorio, aún está sin archivos,  y muestra las opciones para poder subir los archivos del proyecto realizado localmente en AndroidStudio  o el ide que sea, mostrando una url  que está asociada a la cuenta de github del usuario.
  
 
-Con el comando : <git remote add origin  (mas la url del repositorio)> se prepara la subida de archivos y con <git push > se cargan en github.
+Con el comando : <git remote add origin  (mas la url del repositorio)> se prepara la subida de archivos y con (git push) se cargan en github.
  
 
 
 Una vez realizado lo anterior ya se puede ver el directorio con carpetas y archivos cargados en el repositorio.
  
-Con el comando <git branch feature1> se crea una nueva rama (feature1), con el comando <git checkout feature1> se cambia desde la rama main y se conecta a la rama feature1, Con <git branch> se muestran las ramas existentes y la que aparece destacada es a cuál se está enlazado en ése momento , en éste caso (feature1)
+Con el comando (git branch feature1) se crea una nueva rama (feature1), con el comando (git checkout feature1) se cambia desde la rama main y se conecta a la rama feature1, Con (git branch) se muestran las ramas existentes y la que aparece destacada es a cuál se está enlazado en ése momento , en éste caso (feature1)
  
 
 Se realizan cambios en el proyecto.
  
-Los cambios realizados se agregan con <git add .> y luego con un commit se asignan a la rama en que está el proyecto.
+Los cambios realizados se agregan con (git add .) y luego con un commit se asignan a la rama en que está el proyecto.
  
 
 Realizando un push, se suben los cambios al repositorio.
